@@ -1,0 +1,4 @@
+Regra de Negócio Geral
+
+	(RNG01) – Quantidade de jogadores
+		Todo e qualquer jogo só pode ser iniciado caso existam no mínimo 2 e no máximo 6 jogadores. 

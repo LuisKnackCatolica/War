@@ -1,0 +1,44 @@
+Especificação de Caso de Uso
+
+    1. Título
+        Especificação de Caso de Uso: UC03 - Atacar
+
+    2. Descrição
+        Esse caso de uso é o mais importante pois o jogo é sobre conquista de territórios e a forma mais simples de ganhar o jogo é atacando.
+
+    3. Pré-Condições
+        [PRE01] O jogo está em andamento;
+        [PRE02] O jogo está pelo menos na segunda rodada;
+        [PRE03] O atacante está na sua ação.
+
+    4. Fluxo de Eventos
+        a. Fluxo Básico
+            [P01] Esse caso de uso começa a partir da segunda rodada; 
+            [P02] O atacante deve anunciar de qual território partirá o ataque;
+            [P03] O atacante deve anunciar de qual território será atacado (RN02);
+            [P04] O atacante deve anunciar quantos exércitos estará usando para atacar (RN03)(RN04);
+            [P05] O atacante jogará o(s) dado(s) correspondente a quantidade de exército escolhida para o ataque (RN05);
+            [P06] O atacante aguarda a defesa jogar o(s) dado(s);
+    		[P07] Acontece uma confrontação de dados;
+    		[P08] O resultado da confrontação de dados definirá as ações dos jogadores.
+
+    5. Pós Condições
+    	[POS01] O atacante poderá atacar quantas vezes desejar para conquistar o território adversário;
+        [POS02] O atacante poderá atacar de um ou mais territórios;
+        [POS03] O atacante poderá atacar vários territórios na sua rodada.
+
+    6. Regras de Negócios Específicas 
+        a. (RN01) - Autossabotagem;
+            O jogador não poderá atacar um território que esteja em sua posse.
+
+        b. (RN02) - Territórios conectados;
+            O jogador só poderá iniciar  um ataque caso o território atacante possua uma conexão com o território de defesa.
+
+        c. (RN03) - Quantidade mínima de exércitos para o ataque;
+            O jogador, no início do seu turno, ataca da seguinte forma: se somente se houver no mínimo 2 exércitos em um território. Exemplo: Se o jogador possuir 2 exércitos, ele poderá atacar com 1 exército e o outro ficará como exército ocupante do próprio território.
+
+        d. (RN04) - Quantidade máxima de exércitos para o ataque;
+            Independente da quantidade de exércitos em um território, o jogador poderá atacar com no máximo 3 exércitos (RN04). Exemplo: Se o jogador possuir 15 exércitos em 1 território, ele poderá atacar com até 3 exércitos e os restantes são exércitos ocupantes.
+
+        e. (RN05) - Rolagem de Ataque.
+            Sempre que um jogador fizer uma ação de ataque, ele deverá jogar uma quantidade de dados igual a quantidade de exércitos envolvidos no ataque.
