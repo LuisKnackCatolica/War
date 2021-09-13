@@ -1,4 +1,22 @@
-Regra de Negócio Geral
+Regras de Negócio Geral
 
-	(RNG01) – Quantidade de jogadores
-		Todo e qualquer jogo só pode ser iniciado caso existam no mínimo 3 e no máximo 6 jogadores. 
+	(RNG01) – Quantidade de jogadores.
+		Todo e qualquer jogo só pode ser iniciado caso existam no mínimo 3(três) e no máximo 6(seis) jogadores. 
+
+	(RNG02) – Recebimento de Exércitos.
+		Se fornece os exércitos aos jogadores no início da rodada de cada um, só se pode fornecer exércitos de 3(três) maneiras, dividindo por 2(dois) todos os territórios possuídos e em caso de número ímpar, se arredonda para baixo. Recebe também exércitos bônus por continente dominado, de acordo com a tabela 1, as duas primeiras formas, se somam, quando o jogador recebe os exércitos, e o último método é na troca de cartas guiando-se pela tabela 2 da caixa.
+
+	(RNG03) – Início da partida.
+		Se inicia pela última pessoa que recebeu a última carta de território. E a partir da segunda rodada, se pode receber exércitos, optar por atacar e/ou deslocar exércitos caso deseje e se houver conquista de um território receber uma carta de território.
+
+	(RNG04) - Troca de cartas.
+		Com 3(três) cartas de símbolo geométrico iguais ou com 3(três) distintas, pode-se trocar as cartas por uma quantidade de exercícios pré-determinada pela tabela 2, e caso o jogador tenha 5(cinco) cartas, ele é obrigado a trocar 3(três) cartas por exércitos.
+
+	(RNG05) – Deslocamento.
+		Acontece depois do ataque para um território conquistado ou quando o jogador finalizou seus ataques, sendo esse deslocamento entre fronteiras ou territórios contíguos, e apenas uma única vez na mesma jogada e deixando pelo menos um exército de ocupação.
+
+	(RNG06) – Eliminação.
+		A eliminação ocorre quando o jogador tem todo o seu exército destruído e o jogador que o destruiu não tem isso como objetivo em suas cartas objetivo. Como não se pode ter mais de 5(cinco) cartas, o jogador após eliminar outro, caso fique com mais de 5(cinco) deve retirar todas as cartas, sem as olhar ficando com 5(cinco).
+
+	(RNG07) – Fim do jogo.
+		Se é dado, quando o jogador atinge o objetivo presente em sua carta objetivo.
